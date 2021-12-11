@@ -1,0 +1,62 @@
+body{
+    background-image: url("cool-background.png");
+    background-color: cyan;
+}
+.Content{
+    text-align: right;
+    font-size: 28px;
+    padding-top: 150px;
+    padding-right: 80px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(15, 5, 102);
+}
+.top_navigation{
+    overflow: hidden;
+    background-color: rgb(3, 180, 180);
+}
+.top_navigation a{
+    float: right;
+    display: block;
+    color: rgb(16, 73, 16);
+    padding: 25px 36px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.top_navigation a:hover{
+    background-color:yellowgreen;
+    color: white;
+}
+.top_navigation a.active{
+    background-color:black;
+    color: aqua;
+}
+.top_navigation .icon{
+    display: none;
+}
+.footer{
+    position: fixed;
+    background-color: rgb(3, 180, 180);
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(16 , 73 , 16);
+    font: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+}
+.footer a{
+    text-align: center;
+    display: block;
+    color: rgb(16, 73, 16);
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.footer a:hover{
+    background-color:yellowgreen;
+    color: white;
+}
